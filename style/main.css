@@ -10,9 +10,10 @@
 }
 
 body{
+    background-color:rgb(14, 11, 11) ;
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -42,6 +43,7 @@ header nav a:hover{
 }
 
 header .sub-nav{
+    
     margin-bottom:20px;
     margin-left: 85%;
     align-items:center;
@@ -53,15 +55,14 @@ header .sub-nav{
 
 .serie_principal{
     font-size: 17px;
-    background-image: url('/projeto-NETFLIX/img/capa1.jpg');
-
-    height: 600px;
+    background-image: url('../img/imagemfundo.jpg');
+    height: 500px;
     background-size: cover;
-
     display:flex ;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 }
 
 
@@ -127,8 +128,6 @@ header .sub-nav{
 .carrosel_series1{
     margin-top: 5px
 }
-
-
 
 
 
